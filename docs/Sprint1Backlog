@@ -1,0 +1,7 @@
+Sprint 1 Backlog
+
+1  	Define possible move constraints
+2		Minimax tree built for AI
+2		Alpha-beta pruning implimented at one level
+2		Alpha-beta pruning implimented across all levels
+2		Allow depth of tree to be modified by the user upon start up (manage time that each move takes)
