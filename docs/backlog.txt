@@ -1,1 +1,49 @@
 Backlog
+(Timing done in hours)
+
+  GUI
+1		Display title message
+5		Display a board
+1		Add pieces
+3		User enters a move by click-and-move process
+1		Update board
+
+	AI
+1		Define possible move constraints
+		
+2		Minimax tree built for AI
+2		Alpha-beta pruning implimented at one level
+2		Alpha-beta pruning implimented across all levels
+2		Allow depth of tree to be modified by the user upon start up (manage time that each move takes)
+
+3		Computer identifies all valid moves
+3		Computer can randomly select a valid move
+3		Computer looks ahead one move in tree
+		
+1		Computer can check if user is making a valid move or not
+1		Winner/Loser is determined
+0.5		Checking for maximum number of moves
+		
+1		Create a command line/window interface to play (teting until GUI is finished)
+
+	Server
+0.5		Show IP address
+1		Send game data to client
+1		Update board with moves from client
+1		Validate moves
+1		Close connection 
+1		Handle closed connection by client
+1		Send end of game signal with winner
+		
+	Client
+0.5		Enter IP to connect
+1		Recieve game data from server
+1		Send moves to server
+1		Handle closed connection by server
+1		Recieve end of game signal
+1		Music or applause for winner
+
+	Additional Possibilities
+2		Menu in GUI for features
+2		Suggested moves feature
+		
